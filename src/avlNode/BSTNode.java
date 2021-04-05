@@ -91,19 +91,6 @@ public class BSTNode<E> {
     public void setHeight(int height) {
         this.height = height;
     }
-    //This works well for Binary Search Tree.
-//    public int getHeight() {
-//       int leftHeight = 0;
-//       int rightHeight = 0;
-//
-//       if(getLeftChild() != null )
-//           leftHeight = getLeftChild().getHeight();
-//       if(getRightChild() != null)
-//           rightHeight = getRightChild().getHeight();
-//
-//       height = Math.max(leftHeight, rightHeight) + 1;
-//       return height;
-//    }
 
     /**
      * Gives the height of Avl Tree
